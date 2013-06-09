@@ -1,0 +1,27 @@
+{% include header.html %}
+
+        <link rel="stylesheet" type="text/css" href="css/code.css" />
+        <link rel="stylesheet" type="text/css" href="css/wiki.css" />
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="brand" href="/start.html">Manasource Documentation</a>
+                <ul class="nav">
+                    <li><a href="{{ page.categorylink }}.html">{{ page.category }}</a></li>
+                    <li><a href="#">{{ page.title }}</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span2">
+                    {% include leftnav.html %}
+                </div>
+                <div class="span10">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
