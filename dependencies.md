@@ -36,6 +36,8 @@ These are the libraries that are needed for compiling the Mana server:
  * **SQLite 3** - [http://www.sqlite.org/](http://www.sqlite.org/)
  * **Lua 5** - [http://www.lua.org](http://www.lua.org)
 
+Note that you will need a compiler version which supports the c++11x standard.
+
 You'll need to install these dependencies when you want to compile Mana yourself. The most convenient way to install them varies per operating system, below you'll find instructions for a few popular choices.
 
 #  Installation instructions
